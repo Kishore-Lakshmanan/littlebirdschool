@@ -1,0 +1,14 @@
+
+p {
+  font-family: Lato;
+}
+nav{
+    font-size: 100%;
+}
+.bgclr{
+  background-color: green;
+  text-align: center;
+  }
+  .navbar-brand{
+    color:darkgreen;
+  }

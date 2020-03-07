@@ -1,0 +1,11 @@
+
+<div>
+<h2>My Little Birds</h2>
+<ul class="heroes">
+  <li *ngFor="let sd of studentList" [class.selected]="sd === selectedStudDetail" (click)="onSelect(sd.rollNo)">
+    <span class="badge">{{sd.rollNo}}</span> {{sd.studentName}}
+  </li>
+</ul></div>
+<app-student-detail [indDet]="selectedStudDetail" [sd]="selectedStudDetail" ></app-student-detail>
+
+<hr>

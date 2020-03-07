@@ -1,0 +1,26 @@
+
+
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light bgclr ">
+  <a class="navbar-brand" href="#">{{ name }} </a>
+  
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+  <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+    <div class="navbar-nav ">
+      <a class="nav-item nav-link " [routerLink]="['/Home']">Home</a>
+      <a class="nav-item nav-link" [routerLink]="['/About']" >About</a>
+       <a class="nav-item nav-link" [routerLink]="['/student-list']" >Student List</a>       
+        <a class="nav-item nav-link" [routerLink]="['/student-detail']" >Student Details</a>
+      <a class="nav-item nav-link" [routerLink]="['/SchoolEvents']">School Events</a>
+       <a class="nav-item nav-link" [routerLink]="['login']">Login</a>
+  <a class="nav-item nav-link" [routerLink]="['register']">Register</a>
+
+    </div>
+  <!-- </div> -->
+</nav><hr>
+
+
+  <router-outlet></router-outlet>
